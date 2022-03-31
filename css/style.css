@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+}
+h1 {
+    background-color: #193c62;
+    color: #cccccc;
+    margin: 0;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+#app {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 500px;
+}
+
+#drag {
+    display: flex;
+    flex-direction: column;
+    background: rgb(75,155,139);
+    background: linear-gradient(168deg, rgba(75,155,139,1) 0%, rgba(157,224,191,1) 100%); 
+    box-shadow: 5px 5px 15px 5px #DADADA;
+    border-radius: 5px;
+    flex-basis: 30%;
+}
+
+#drag h2 {
+    text-align: center;
+    border-bottom: solid 2px #4095a7;
+    padding-bottom: 20px;
+}
+
+#drop {
+    display: flex;
+    flex-direction: column;
+    background: rgb(197,235,240);
+    background: linear-gradient(168deg, rgba(197,235,240,1) 0%, rgba(196,236,245,1) 100%); 
+    box-shadow: 5px 5px 15px 5px #DADADA;
+    border-radius: 5px;
+    flex-basis: 69%;
+    
+}
+
+#drop h2 {
+    text-align: center;
+    border-bottom: solid 2px #4095a7;
+    padding-bottom: 20px;
+}
+
+
